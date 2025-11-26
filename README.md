@@ -32,3 +32,29 @@ A simple RESTful API for managing a ToDo list, built with **Django** and **Djang
 ```bash
 git clone https://github.com/YOUR_USERNAME/todolistapi.git
 cd todolistapi
+
+### Create a virtual environment
+
+```bash
+python -m venv env         # Create venv folder named 'env'
+source env/bin/activate     # Linux / Mac
+env\Scripts\activate        # Windows
+
+
+###Install dependencies
+
+```bash
+pip install django djangorestframework
+
+###Apply migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+
+
+###Run the development server
+```bash
+python manage.py runserver
+
+
