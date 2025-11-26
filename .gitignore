@@ -1,0 +1,19 @@
+# Python
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.py[cod]
+env/
+venv/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
